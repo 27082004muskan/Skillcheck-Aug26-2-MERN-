@@ -3,21 +3,40 @@ import ProfileCard from "./component/ProfileCard"
 
 
 const App = () => {
+
+  const products = [
+  { name: "iPhone", price: 80000 },
+  { name: "Samsung", price: 70000 },
+  { name: "OnePlus", price: 50000 }
+];
+
   return (
     <div>
           
       <ProfileCard/>
 
       {/* TASK-2 Product Card Using Props */}
-<ProductCard
-  name="Wireless Headphones"
-  price="2999"
-  rating="4.8"
-/>
+      {/* <ProductCard
+      name="Wireless Headphones"
+      price="2999"
+      rating="4.8"
+        /> */}
+
+
+      {/* TASK- 3 Product Card Using Map */}
+      {products.map((products)=>
+      (
+             <ProductCard
+             key={products.name}
+        name={products.name}
+        price={products.price}
+      />
+      ))}
+
+
+
+
     </div>
-
-
-
   )
 }
 
