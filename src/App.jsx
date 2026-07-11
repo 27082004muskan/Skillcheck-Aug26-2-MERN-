@@ -1,3 +1,4 @@
+import EventHandling from "./component/EventHandling";
 import ProductCard from "./component/ProductCard"
 import ProfileCard from "./component/ProfileCard"
 
@@ -33,7 +34,8 @@ const App = () => {
       />
       ))}
 
-
+{/* TASK- 4 Product Card Using Map */}
+<EventHandling/>
 
 
     </div>
