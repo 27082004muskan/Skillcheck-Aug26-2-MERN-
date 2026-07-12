@@ -1,3 +1,4 @@
+import ControlledComponents from "./component/ControlledComponents";
 import EventHandling from "./component/EventHandling";
 import EventUsingUseState from "./component/EventUsingUseState";
 import ProductCard from "./component/ProductCard"
@@ -41,6 +42,8 @@ const App = () => {
 {/* TASK- 5 Using useState instead of alert */}
 <EventUsingUseState/>
 
+{/* Task-5 ( Controlled Components - input dene ke baad he usestate/Alert work kare )*/}
+<ControlledComponents/>
     </div>
   )
 }
