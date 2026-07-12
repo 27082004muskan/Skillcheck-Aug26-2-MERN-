@@ -1,4 +1,5 @@
 import EventHandling from "./component/EventHandling";
+import EventUsingUseState from "./component/EventUsingUseState";
 import ProductCard from "./component/ProductCard"
 import ProfileCard from "./component/ProfileCard"
 
@@ -34,9 +35,11 @@ const App = () => {
       />
       ))}
 
-{/* TASK- 4 Product Card Using Map */}
+{/* TASK- 4 Using onclick-alert on a button */}
 <EventHandling/>
 
+{/* TASK- 5 Using useState instead of alert */}
+<EventUsingUseState/>
 
     </div>
   )
