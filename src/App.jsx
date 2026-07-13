@@ -3,6 +3,7 @@ import EventHandling from "./component/EventHandling";
 import EventUsingUseState from "./component/EventUsingUseState";
 import ProductCard from "./component/ProductCard"
 import ProfileCard from "./component/ProfileCard"
+import Todolist from "./component/Todolist";
 
 
 const App = () => {
@@ -44,6 +45,11 @@ const App = () => {
 
 {/* Task-5 ( Controlled Components - input dene ke baad he usestate/Alert work kare )*/}
 <ControlledComponents/>
+
+{/* Task-6 TO Do List */}
+<Todolist/>
+
+
     </div>
   )
 }
