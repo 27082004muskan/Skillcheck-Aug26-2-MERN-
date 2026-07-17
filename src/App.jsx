@@ -4,6 +4,7 @@ import EventHandling from "./component/EventHandling";
 import EventUsingUseState from "./component/EventUsingUseState";
 import ProductCard from "./component/ProductCard"
 import ProfileCard from "./component/ProfileCard"
+import QuoteGenerator from "./component/QuoteGenerator";
 import Todolist from "./component/Todolist";
 
 
@@ -52,6 +53,11 @@ const App = () => {
 
 {/* Task-7 Changing colour using UseEffect*/}
 <ColourChanger/>
+
+
+{/* Task-8 Quote Changing using UseEffect*/}
+<QuoteGenerator/>
+
     </div>
   )
 }
