@@ -1,3 +1,4 @@
+import ColourChanger from "./component/ColourChanger";
 import ControlledComponents from "./component/ControlledComponents";
 import EventHandling from "./component/EventHandling";
 import EventUsingUseState from "./component/EventUsingUseState";
@@ -49,7 +50,8 @@ const App = () => {
 {/* Task-6 TO Do List */}
 <Todolist/>
 
-
+{/* Task-7 Changing colour using UseEffect*/}
+<ColourChanger/>
     </div>
   )
 }
